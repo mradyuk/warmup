@@ -1,3 +1,11 @@
 module.exports = function warmup(temperature) {
-  // your implementation here
+
+  let tempF; // = 0;
+
+  if (!isNaN(temperature)) {
+    tempF = temperature * 9 / 5 + 32;
+  }
+
+  return tempF;
+
 };
